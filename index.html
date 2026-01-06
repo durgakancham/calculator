@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animated Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calc-wrapper">
+    <div class="calculator">
+      <div class="calc-header">
+        <span class="title">Calculator</span>
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+      </div>
+
+      <div class="screen">
+        <div id="previous" class="previous"></div>
+        <div id="current" class="current">0</div>
+      </div>
+
+      <div class="keys">
+        <button data-action="clear" class="key key-func">C</button>
+        <button data-action="delete" class="key key-func">⌫</button>
+        <button data-operator="%" class="key key-op">%</button>
+        <button data-operator="/" class="key key-op">÷</button>
+
+        <button data-number="7" class="key">7</button>
+        <button data-number="8" class="key">8</button>
+        <button data-number="9" class="key">9</button>
+        <button data-operator="*" class="key key-op">×</button>
+
+        <button data-number="4" class="key">4</button>
+        <button data-number="5" class="key">5</button>
+        <button data-number="6" class="key">6</button>
+        <button data-operator="-" class="key key-op">−</button>
+
+        <button data-number="1" class="key">1</button>
+        <button data-number="2" class="key">2</button>
+        <button data-number="3" class="key">3</button>
+        <button data-operator="+" class="key key-op">+</button>
+
+        <button data-number="0" class="key key-zero">0</button>
+        <button data-number="." class="key">.</button>
+        <button data-action="equals" class="key key-eq">=</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
