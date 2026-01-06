@@ -7,7 +7,7 @@ The UI uses a glass/neo-morphic style, smooth button animations, and supports bo
 
 ## 🌍 Live Demo
 
-**Deployed App:** https://LIVE_LINK_HERE  
+**Deployed App:** https://guileless-nasturtium-9fb70e.netlify.app/
 
 (Open the link in any modern browser on desktop or mobile.)
 
